@@ -1,0 +1,63 @@
+/* header.css */
+.navbar {
+  background-color: #87d3f5 !important; /* Color personalizado */
+  height: 100px;
+}
+
+.nav-link {
+  color: #ffffff !important; /* Color del texto de los enlaces */
+}
+
+/* Left logo */
+.navbar-logo img {
+  height: 70px; /* Ajusta la altura del logo */
+}
+
+/* Center logo */
+.center-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.center-logo img {
+  height: 100px; /* Ajusta la altura del logo central */
+}
+
+/* Adjustments for button alignment */
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Ensure the logo and button do not overlap on smaller screens */
+@media (max-width: 576px) {
+  .navbar-logo {
+    flex-grow: 1;
+  }
+
+  .center-logo img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .navbar-logo, .center-logo, .nav {
+    position: static;
+    transform: none;
+  }
+
+  .center-logo {
+    margin-top: 10px;
+  }
+}

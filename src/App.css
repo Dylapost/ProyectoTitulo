@@ -1,0 +1,53 @@
+/* App.css */
+
+/* Aplica un color de fondo a todo el body */
+body {
+  background-color: #d4d7d7; /* Cambia el color de fondo a tu preferencia */
+  margin: 0; /* Elimina los márgenes por defecto */
+  padding: 0; /* Elimina el padding por defecto */
+  font-family: Arial, sans-serif; /* Ajusta la fuente global */
+}
+
+/* Aplica estilos al contenedor principal */
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+  /* Media Queries para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 100%; /* En pantallas pequeñas, las tarjetas ocuparán el 100% del ancho del contenedor */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      padding: 0.5em; /* Ajusta el padding de las tarjetas para pantallas muy pequeñas */
+    }
+  
+    .accordion-image {
+      margin-bottom: 10px; /* Ajusta el margen inferior de la imagen en pantallas pequeñas */
+    }
+  }

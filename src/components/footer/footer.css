@@ -1,0 +1,28 @@
+.footer {
+    background-color: #87d3f5; /* Cambia este color para el fondo del footer */
+    color: #ffffff; /* Color del texto */
+    padding: 2rem 0;
+  }
+  
+  .footer h5 {
+    color: #f8f9fa; /* Color de los títulos */
+    margin-bottom: 1rem;
+  }
+  
+  .footer p {
+    color: #e9ecef; /* Color del texto */
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer .btn-primary {
+    background-color: #ffffff; /* Color de fondo del botón */
+    border-color: #ffffff; /* Color del borde del botón */
+    color: #000000; /* Color del texto del botón */
+    margin-top: 1rem;
+  }
+  
+  .footer .btn-primary:hover {
+    background-color: #b3cce7; /* Color del botón al pasar el cursor */
+    border-color: #ffffff; /* Color del borde del botón al pasar el cursor */
+  }
+  
