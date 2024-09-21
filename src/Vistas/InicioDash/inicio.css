@@ -1,0 +1,63 @@
+.inicio-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inicio-row {
+    width: 100%;
+}
+
+.inicio-card {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.inicio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.inicio-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.inicio-card-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card-stock {
+    background-color: #28a745;
+}
+
+.card-cliente {
+    background-color: #17a2b8;
+}
+
+.card-mantencion {
+    background-color: #007bff;
+}
+
+.card-activos {
+    background-color: #ffc107;
+}
+
+.card-totales {
+    background-color: #6c757d;
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .inicio-card-number {
+        font-size: 2rem;
+    }
+}

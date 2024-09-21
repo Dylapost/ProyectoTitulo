@@ -2,12 +2,13 @@
 .hero-image {
   width: 100%; /* Imagen usa todo el ancho de la página */
   height: 400px; /* Puedes ajustar la altura según lo que necesites */
-  background-image: url('C:\Users\dylap\proyecto-v2\src\components\Imagenes\gruas\cropped-DSCN3304-scaled.jpg'); /* Cambia a la ruta de tu imagen */
-  background-size: cover; /* La imagen cubre todo el contenedor */
+  background-image: url('C:\Users\dylap\proyecto-v2\src\components\Imagenes\gruas\stage-new-trucks.jpg'); /* Cambia a la ruta de tu imagen */
+  /* La imagen cubre todo el contenedor */
   background-position: center;
   position: relative;
   margin-top: 100px; /* Ajuste según la altura del Navbar */
 }
+
 
 .hero-text {
   text-align: center;
@@ -89,3 +90,5 @@
     max-width: 90%;
   }
 }
+
+

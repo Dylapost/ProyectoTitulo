@@ -1,0 +1,22 @@
+/* Sidebar.css */
+
+/* Mantener la Sidebar debajo de la Navbar */
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  position: fixed;
+  top: 56px; /* Baja la Sidebar para que no se superponga con la Navbar */
+  left: 0;
+  height: calc(100% - 56px); /* Ajusta la altura para que no se desborde */
+  z-index: 1; /* Asegura que esté debajo de la Navbar */
+  overflow-y: auto; /* Permite el scroll si el contenido es largo */
+}
+
+/* Ajustar el botón de colapso de la Sidebar */
+.sidebar .sidebar-btn-wrapper {
+  position: absolute;
+  top: 10px; /* Coloca el botón en la parte superior de la Sidebar */
+  left: 10px; /* Ajusta según tu diseño */
+  z-index: 2; /* Asegura que el botón esté sobre la Navbar */
+  color: white;
+}

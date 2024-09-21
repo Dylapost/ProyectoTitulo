@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
 import './footer.css';
 
 const Footer: React.FC = () => {
@@ -19,9 +18,7 @@ const Footer: React.FC = () => {
             <p>Información breve sobre la empresa.</p>
           </Col>
           <Col md={4} className="text-md-end">
-            <Link to="/login">
-              <Button variant="primary">Iniciar Sesión</Button>
-            </Link>
+            
           </Col>
         </Row>
       </Container>

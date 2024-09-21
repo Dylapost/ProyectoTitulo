@@ -10,10 +10,8 @@ body {
 
 /* Aplica estilos al contenedor principal */
 .content {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  
+  
 }
 
 @keyframes logo-spin {
@@ -51,3 +49,5 @@ body {
       margin-bottom: 10px; /* Ajusta el margen inferior de la imagen en pantallas pequeñas */
     }
   }
+
+  

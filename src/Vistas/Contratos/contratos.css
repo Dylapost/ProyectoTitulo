@@ -1,0 +1,72 @@
+/* Estilo para las cards de resumen */
+.summary-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;  /* Aumenta el alto de la card */
+  width: 600px; 
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  padding: 20px;
+  text-align: center;
+}
+
+.summary-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.summary-card h5 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.summary-card p {
+  font-size: 40px;
+  font-weight: bold;
+  color: #007bff;
+  margin: 0;
+}
+
+/* Estilo para las cards de contratos vigentes */
+.card-contrato-vigente {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #e6ffed; /* Color verde claro */
+}
+
+.card-contrato-vigente:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para las cards de contratos finalizados */
+.card-contrato-finalizado {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #ffe6e6; /* Color rojo claro */
+}
+
+.card-contrato-finalizado:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para los textos dentro de las cards */
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #555;
+}
+

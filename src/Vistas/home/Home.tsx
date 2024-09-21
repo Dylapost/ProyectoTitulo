@@ -2,11 +2,15 @@ import Accordion from 'react-bootstrap/Accordion';
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
+
 import './Home.css';
 
 const Home: React.FC = () => {
     return (
       <>
+        <Header />
         {/* Imagen con Título, Subtítulo y Botón */}
         <div className="hero-image">
           <div className="hero-text">
@@ -87,6 +91,7 @@ const Home: React.FC = () => {
             </Accordion>
           </Card>
         </div>
+        <Footer />
       </>
     );
 };

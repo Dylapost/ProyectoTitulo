@@ -1,15 +1,16 @@
 /* login.css */
 .main-content {
-  margin-top: 100px; /* Ajuste según la altura del Navbar */
-  padding: 20px;
+  margin-top: 1200px; /* Ajuste según la altura del Navbar */
+  padding: 230px;
 }
+
 
 /* login.css */
 .login-container {
   background-color: #f7d106 ; /* Cambia este color al que desees */
   width: 100%;
   max-width: 400px; /* Ajusta este valor según las necesidades */
-  margin: 100px auto; /* Centra el contenedor verticalmente y horizontalmente */
+  margin: 200px auto; /* Centra el contenedor verticalmente y horizontalmente */
   padding: 2rem;
   border-radius: 8px; /* Opcional: para esquinas redondeadas */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: para un efecto de sombra */
